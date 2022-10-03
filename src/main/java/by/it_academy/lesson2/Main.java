@@ -1,0 +1,17 @@
+package by.it_academy.lesson2;
+
+import java.sql.SQLOutput;
+
+public class Main {
+
+    public static void main(String[] args) {
+        double a = 5.00;
+        double b = 7.00;
+
+        System.out.println("Fiest value =" + a);
+        System.out.println("Second value =" + b);
+        System.out.println("Multiplication =" + a * b);
+        System.out.println("Division =" + a / b);
+    }
+
+}
