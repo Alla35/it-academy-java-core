@@ -9,8 +9,6 @@ public class Main2 {
                 System.out.println("Distinction");
                 break;
             case 'B':
-                System.out.println("First class");
-                break;
             case 'C':
                 System.out.println("First class");
                 break;
