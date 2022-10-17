@@ -8,7 +8,7 @@ public class Main2 {
         for (int i : number) {
 
             for (int h = 0; h < i; h++) {
-                System.out.println("*");
+                System.out.print("*");
             }
             System.out.println();
         }
