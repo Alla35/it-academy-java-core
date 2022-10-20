@@ -2,18 +2,18 @@ package by.it_academy.lesson5;
 
 public class Whistle {
 
-    private String sound;
-
-    public static void sound() {
-        System.out.println("sound");
-    }
-
-    Whistle(final String Sound) {
+    private final String sound;
+    public Whistle (final String sound) {
         this.sound = sound;
     }
 
+    public void sound() {
+        System.out.println(sound);
+    }
+
+
     public static void main(String[] args) {
         Whistle whistle = new Whistle("do");
-        Whistle.sound();
+        whistle.sound();
     }
 }
