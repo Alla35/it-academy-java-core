@@ -1,26 +1,26 @@
-package by.it_academy.lesson7.Task2;
+package by.it_academy.lesson7.task2;
 
 public class Counter {
     private int value;
 
-    public Counter(int starValue) {
-        this.value = starValue;
+    public Counter(int startValue) {
+        this.value = startValue;
     }
 
     public Counter() {
         this(0);
     }
 
-    public int Value() {
+    public int value() {
         return value;
     }
 
     public void increase() {
-        this.value = value + 1;
+        increase(1);
     }
 
     public void decrease() {
-        this.value = value - 1;
+        decrease(1);
     }
 
     public void increase(int increaseBy) {

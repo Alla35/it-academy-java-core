@@ -1,7 +1,8 @@
-package by.it_academy.lesson7.Task1;
+package by.it_academy.lesson7.task1;
 
 public class Animal {
-    private String name;
+
+    private final String name;
 
     public Animal(String name) {
         this.name = name;
